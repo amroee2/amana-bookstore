@@ -109,6 +109,26 @@
       "comment": "Great integration of geophysics with climate science. The plate tectonics chapters are well-written and current.",
       "timestamp": "2024-03-08T11:40:00Z",
       "verified": true
+    },
+    {
+      "id": "review-61",
+      "bookId": "1",
+      "author": "John Doe",
+      "rating": 5,
+      "title": "Excellent book!",
+      "comment": "Really helped me understand the concepts better.",
+      "timestamp": "2025-10-07T14:38:33.637Z",
+      "verified": false
+    },
+    {
+      "id": "review-62",
+      "bookId": "1",
+      "author": "John Doe",
+      "rating": 5,
+      "title": "Excellent book!",
+      "comment": "Really helped me understand the concepts better.",
+      "timestamp": "2025-10-07T14:38:43.639Z",
+      "verified": false
     }
   ]
 }

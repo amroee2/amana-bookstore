@@ -22,7 +22,7 @@
       "language": "English",
       "publisher": "Al-Biruni Academic Press",
       "rating": 4.8,
-      "reviewCount": 23,
+      "reviewCount": 25,
       "inStock": true,
       "featured": true
     },
@@ -76,6 +76,28 @@
       "rating": 4.7,
       "reviewCount": 12,
       "inStock": false,
+      "featured": false
+    },
+    {
+      "id": "4",
+      "title": "Advanced Mathematics",
+      "author": "Dr. Smith",
+      "description": "Comprehensive math textbook",
+      "price": 79.99,
+      "image": "/images/default-book.jpg",
+      "isbn": "978-1111111111",
+      "genre": [
+        "Mathematics",
+        "Textbook"
+      ],
+      "tags": [],
+      "datePublished": "2024-10-01",
+      "pages": 456,
+      "language": "English",
+      "publisher": "Academic Press",
+      "rating": 0,
+      "reviewCount": 0,
+      "inStock": true,
       "featured": false
     }
   ]
