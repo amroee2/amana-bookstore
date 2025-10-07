@@ -5,10 +5,10 @@ import { promises as fs } from 'fs';
 // GET /api/books/[id] - Get a single book by ID
 export async function GET(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    const { id } = params;
+    const { id } = await params;
 
     // Get the path to the books.json file
     const jsonDirectory = path.join(process.cwd(), 'app', 'data');

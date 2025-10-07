@@ -5,10 +5,10 @@ import { promises as fs } from 'fs';
 // GET /api/books/[id]/reviews - Get all reviews for a specific book
 export async function GET(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    const { id } = params;
+    const { id } = await params;
 
     // Get the path to the data files
     const jsonDirectory = path.join(process.cwd(), 'app', 'data');
